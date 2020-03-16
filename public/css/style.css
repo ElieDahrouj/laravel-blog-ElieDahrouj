@@ -1,0 +1,82 @@
+body{
+    background-color: #191919;
+}
+header{
+    background-color: #7d8991;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgHeader{
+    width: 120px;
+    padding: 10px;
+}
+.article{
+    color: whitesmoke;
+    padding: 10px 0;
+    margin: 10px 30px;
+    border-bottom: 0.5px solid whitesmoke;
+}
+.title{
+    margin: 10px 0 25px 0;
+}
+.navCategoryUser{
+    display: flex;
+    margin: 15px auto auto;
+    justify-content: space-around;
+}
+.scroll{
+    height: 350px;
+    overflow-y: scroll;
+    margin: 10px 0;
+}
+::-webkit-scrollbar {
+    width: 2px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #191919;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #404040;
+    border-radius: 3px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: whitesmoke;
+}
+.cardArticle{
+    border-bottom: 5px solid #000000;
+    margin-top: 20px;
+    width: 430px;
+}
+.readingArticle{
+    width: 80%;
+    margin: auto;
+}
+.sectionArticle{
+    margin: 30px 0;
+}
+.cardCustom{
+    margin: 0 10px 30px 10px;
+}
+.cardArticle div{
+    padding: 10px 0;
+}
+.cardArticle h3, .cardArticle h5, .cardArticle p{
+    color: #7d8991;
+}
+.art{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.content{
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
